@@ -20,7 +20,8 @@ while True:
     konversi_uang()
     operator = input("Pilih kategori: ")
     operator = str(operator)
-
+    print("")
+    
     if operator=='1':
          print("IDR - USD")
          rupiah=input("Nominal Rupiah: ")
